@@ -1,0 +1,19 @@
+/* bubbles */
+#bubbles {
+    z-index: 0;
+}
+.bubble {
+    aspect-ratio: 1;
+    position: fixed;
+}
+
+/* front page */
+#sams-club {
+    width: 50vw;
+    aspect-ratio: 17/13;
+}
+
+/* footer */
+.footerTxt {
+    margin: 0;
+}
