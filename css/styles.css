@@ -13,6 +13,32 @@
     aspect-ratio: 17/13;
 }
 
+/* links */
+
+
+.link {
+    width: 25vw;
+    background-color: var(--primary);
+    aspect-ratio: 5/2;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid var(--background-darker) 5px;
+    transition: ease-in-out 0.2s;
+}
+.link:hover {
+    transform: translateY(-15px);
+}
+
+.linkTxt {
+    text-align: center;
+    font-size: var(--h1);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text);
+}
+
 /* footer */
 .footerTxt {
     margin: 0;
