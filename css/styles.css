@@ -5,6 +5,8 @@
 .bubble {
     aspect-ratio: 1;
     position: fixed;
+    width: 100px;
+    aspect-ratio: 1;
 }
 
 /* front page */
@@ -14,6 +16,12 @@
 }
 
 /* links */
+
+.linkBox {
+    background-color: var(--background-darker);
+    clip-path: ellipse(50% 32% at 50% 50%);
+}
+
 
 
 .link {

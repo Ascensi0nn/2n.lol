@@ -1,4 +1,4 @@
-const numBubbles = 70;
+const numBubbles = 102;
 const maxBubbleSize = 100;
 const windowHeight = document.getElementById('pages').offsetHeight;
 const windowWidth = document.getElementById('pages').offsetWidth;
@@ -11,7 +11,7 @@ function generateBubble() {
     bubble.style.width = bubbleWidth + 'px';
     bubble.style.top = (Math.random() * windowHeight) + 'px';
     bubble.style.left = (Math.random() * windowWidth) +'px';
-    bubble.style.zIndex = -1 * bubbleWidth;   
+    bubble.style.zIndex = Math.floor(bubbleWidth - maxBubbleSize);   
     bubble.src = 'resources/bubble-medium.png';
 
     bubbleHolder.appendChild(bubble);
