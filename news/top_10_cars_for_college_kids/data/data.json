@@ -1,0 +1,81 @@
+{
+    "cars": [
+        {
+            "name": "10) Subaru Outback",
+            "img-path": "resources/cars/SubaruOutback.jpg",
+            "paragraph": "The Subaru Outback is a versatile and popular choice for winter driving. Equipped with Subaru's legendary symmetrical all-wheel drive system, it provides exceptional traction on slippery roads. The Outback's ample ground clearance helps it navigate through snowbanks with ease, and its spacious interior ensures a comfortable commute. Subaru is known for its reliability and durability, making the Outback a practical and trustworthy choice for Rochester's winter challenges.",
+            "pros": ["All Wheel Drive", "Great Ground Clearance", "Rugged Design", "Heated Seats and Mirrors", "Reliability"],
+            "cons": ["Low Fuel Efficiency", "Poorer Interior Quality", "Higher Noise Levels", "Lower Acceleration", "Higher Price"]
+        },
+        {
+            "name": "9) Toyota RAV4 AWD",
+            "img-path": "resources/cars/ToyotaRav4.jpg",
+            "paragraph": "The Toyota RAV4, especially in an all-wheel-drive (AWD) configuration, is another excellent option for Rochester's winter weather. With a reputation for reliability and fuel efficiency, the RAV4's AWD system enhances stability and control on icy and snow-covered roads. The RAV4 also comes equipped with advanced safety features, providing an additional layer of protection during winter driving conditions. Its compact size makes it maneuverable through city streets while still offering a comfortable ride for daily commuting.",
+            "pros": ["Dynamic Torque Vectoring AWD", "Great Ground Clearance", "Toyota Safety Sense", "Fuel Efficiency", "Reliability"],
+            "cons": ["Poorer Interior Quality", "Lower Acceleration", "Non-flat Cargo Floor", "Higher Noise Levels"]
+        },
+        {
+            "name": "8) Jeep Wrangler Snow Beast Edition",
+            "img-path": "resources/cars/JeepWrangler.jpg",
+            "paragraph": "This specialized version of the iconic Jeep Wrangler embraces the winter spirit with features designed to conquer Rochester's snowy landscape. Equipped with oversized snowflake-shaped tires for maximum traction, the Snow Beast Edition turns heads while plowing through the white stuff. Its heated seats and hot cocoa dispenser add a touch of luxury to your frosty journey, ensuring you stay warm and cozy even on the coldest days. With its whimsical design and off-road capabilities, the Jeep Wrangler Snow Beast Edition brings a playful twist to winter commuting, making your drive through Rochester feel more like an adventure on the frozen tundra.",
+            "pros": ["4 Wheel Drive", "Huge Ground Clearance", "Off-road Features", "Towing Capacity"],
+            "cons": ["Low Fuel Efficiency", "Wind Resistance", "Less Comfortable Ride", "Higher Noise Levels"]
+        },
+        {
+            "name": "7) Hummer",
+            "img-path": "resources/cars/Hummer.jpg",
+            "paragraph": "Consider the Hummer as not just a vehicle but a powerful embodiment of rugged capability and a statement of audacious presence on the road. The Hummer's commanding, larger-than-life stance immediately sets it apart, making a bold statement about your desire for adventure and resilience. Renowned for its off-road prowess, the Hummer is ready to tackle the toughest terrains, ensuring that no adventure is too daunting. The latest electric models further underscore a commitment to sustainability, offering an eco-friendly option without compromising on the vehicle's legendary strength. With a luxurious and spacious interior, advanced technology features, and an unmistakable design, the Hummer seamlessly combines functionality with a sense of opulence. Whether you're navigating urban streets or venturing off the beaten path, the Hummer promises an unmatched driving experience, appealing to those who seek both power and prestige in their automotive choice.",
+            "pros": ["Off-road Capability", "Modern Electric Power", "Very Unique Design"],
+            "cons": ["Higher Price", "Low Range Milage", "Size and Maneuverability", "Environmental Impacts"]
+        },
+        {
+            "name": "6) Nissan Rogue",
+            "img-path": "resources/cars/NissanRogue.jpg",
+            "paragraph": "The Nissan Rogue stands out in the compact SUV segment, offering a well-rounded package that combines style, practicality, and advanced features. With a sleek exterior design and a thoughtfully crafted interior, the Rogue provides a comfortable and enjoyable driving experience. Known for its user-friendly technology, including the Nissan Safety Shield 360 suite, the Rogue prioritizes safety and convenience. Its fuel-efficient engine, smooth ride, and ample cargo space make it an ideal choice for daily commuting and family adventures. The Nissan Rogue strikes a balance between versatility and affordability, making it a compelling option for those seeking a reliable and stylish compact SUV.",
+            "pros": ["Comfortable Interior", "Advanced Safety Features", "Smooth Ride", "High Fuel Efficiency"],
+            "cons": ["Powertrain Performance", "Limited Off-road Capabilities", "Limited Towing Capacity"]
+        },
+        {
+            "name": "5) Toyota Sienna",
+            "img-path": "resources/cars/ToyotaSienna.jpg",
+            "paragraph" : "The Toyota Sienna stands out as a top choice in the minivan segment, offering a perfect blend of versatility, comfort, and advanced features. Renowned for its spacious and thoughtfully designed interior, the Sienna provides ample room for both passengers and cargo. With its reputation for reliability and safety, this minivan is an excellent choice for families. The Sienna goes beyond traditional expectations with its hybrid powertrain, delivering impressive fuel efficiency for its class. Whether you're on a family road trip or navigating city streets, the Toyota Sienna excels in providing a smooth, comfortable, and fuel-efficient driving experience.",
+            "pros": ["Spacious Interior", "Comfortable Ride", "Portable Movie Theater", "Advanced Safety Features"],
+            "cons": ["Higher Price", "No All-Wheel Drive", "It's a minivan"]
+        },
+        {
+            "name": "4) Smart Fourtwo",
+            "img-path": "resources/cars/SmartFourtwo.jpg",
+            "paragraph" : "The Smart Fortwo is a compact and nimble city car designed for urban living. Its diminutive size and tight turning radius make it a breeze to navigate through crowded streets and squeeze into tight parking spaces. Perfect for urban commuters, the Fortwo's small footprint doesn't compromise on style or efficiency. With its distinctive design, fuel efficiency, and electric variants, the Smart Fortwo is an ideal choice for those seeking a practical and eco-friendly solution to urban transportation challenges.",
+            "pros": ["Compact Size", "High Fuel Efficiency", "Electric Variants", "Easy Parking"],
+            "cons": ["Limited Cargo Space", "Limited Passenger Capacity", "Bumpy Ride", "Small as Shit"]
+        },
+        {
+            "name": "3) Ford Raptor",
+            "img-path": "resources/cars/FordRaptor.png",
+            "paragraph" : "The Ford F-150 Raptor stands out as an exhilarating and versatile pickup truck that seamlessly combines off-road prowess with on-road comfort. Engineered to conquer challenging terrains, the Raptor features a high-output EcoBoost V6 engine, robust suspension, and specialized off-road components. Its aggressive exterior design exudes a rugged, yet modern aesthetic, complemented by a spacious and tech-laden interior. The Raptor isn't just a workhorse; it's a lifestyle vehicle, equally at home on city streets or tearing through dirt trails. With its impressive towing capacity, cutting-edge technology, and Baja-inspired capabilities, the Ford F-150 Raptor offers a thrilling driving experience for those seeking adventure without sacrificing everyday practicality.",
+            "pros": ["Redefines 'Tough'", "Supports Pride", "Towing Capacity", "Bold Exterior Design"],
+            "cons": ["Low Fuel Efficiency", "Firm Ride", "Higher Price"]
+        },
+        {
+            "name": "2) 1969 Dodge Charger",
+            "img-path": "resources/cars/DodgeCharger.jpg",
+            "paragraph" : "The 1969 Dodge Charger is an American classic renowned for its iconic design and high-performance capabilities. This vintage muscle car, famously known as the General Lee from 'The Dukes of Hazzard,' exudes a timeless appeal with its aggressive stance, fastback styling, and distinctive front grille. Under the hood, the Charger packs a punch, offering a range of potent V8 engines that deliver thrilling acceleration and an unmistakable exhaust note. While its interior may lack modern amenities, the Charger compensates with a driver-centric layout and an authentic driving experience. Owning a 1969 Dodge Charger is not just about transportation; it's about embracing a piece of automotive history and enjoying the raw power of classic American muscle.",
+            "pros": ["Iconic Design", "Muscle Car Power", "Classic Interior", "Customization Potential"],
+            "cons": ["Low Fuel Efficiency", "Limited Safety Features", "High Maintenance"]
+        },
+        {
+            "name": "1) Pontiac Firebird",
+            "img-path": "resources/cars/PontiacFirebird.jpg",
+            "paragraph": "Choosing a Pontiac Firebird for your next vehicle is a decision driven by a harmonious blend of performance, style, and an undeniable touch of American automotive history. The Firebird, with its sleek and iconic design, exudes a timeless appeal that turns heads wherever it goes. Beneath its sculpted hood lies a potent engine that delivers thrilling performance, whether you're cruising down the highway or revving up the engine at a stoplight. The Pontiac Firebird's agile handling and responsive steering contribute to an exhilarating driving experience, making every journey a joy. With its rich heritage, the Firebird embodies the spirit of classic American muscle cars, and owning one is not just about transportation; it's a statement, a nod to the era of powerful engines and bold design. If you crave a car that seamlessly combines style, performance, and a dash of nostalgia, the Pontiac Firebird beckons as an exhilarating choice that promises to make every drive a memorable adventure.",
+            "pros": ["Classic American Muscle", "Powerful V8 Engine", "Thrilling Experience", "Heritage and Nostalgia"],
+            "cons": ["Low Fuel Efficiency", "Unapologetic Raw Power", "Iconic Design attracts too much Attention"]
+        },
+        {
+            "name": "Honorable Mention",
+            "img-path": "resources/cars/MuttCutts.jpg",
+            "paragraph": "Opting for the Mutt Cutts van from 'Dumb and Dumber' is a decision that transcends traditional automotive choices, offering a unique blend of whimsy, nostalgia, and undeniable charm. This iconic van, adorned with a shaggy dog fur exterior and vibrant blue and orange colors, is an instant attention-grabber, turning every drive into a memorable spectacle. It's not just a mode of transportation; it's a rolling conversation starter and a symbol of irreverent humor. Choosing the Mutt Cutts van means embracing a carefree and lighthearted approach to life, reminiscent of the comedic adventures from the classic film. It's a vehicle that fosters a sense of camaraderie and shared laughter, making it an ideal choice for those who value a break from the ordinary and a daily dose of joy on the road. In the Mutt Cutts van, every trip becomes a journey of fun and hilarity, ensuring that you not only arrive at your destination but also arrive with a smile.",
+            "pros": ["Unmatched Attention", "Pet Friendly", "Instant Mood Lifter"],
+            "cons": ["Limited Privacy", "Parking Challenges", "Questionable Resale Value"]
+        }
+    ]
+}

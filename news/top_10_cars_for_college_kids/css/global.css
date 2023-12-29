@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+:root {
+    /* changable with compatibility with RealtimeColors */
+    --text: #0c0c0f;
+    --background: #fafafb;
+    --primary: #7a7a94;
+    --secondary: #b2b2c5;
+    --accent: #a58eaa;
+    /* ^^^ https://www.realtimecolors.com/ */
+    
+    /* changable font family/weight */
+    font-family: 'Poppins';
+    font-weight: 400;
+
+    /* dynamic and consistent scaling for fonts */
+    --font-scale: 1.333;
+    --p: 1.2rem;
+    --h5: calc(var(--p) * var(--font-scale));
+    --h4: calc(var(--h5) * var(--font-scale));
+    --h3: calc(var(--h4) * var(--font-scale));
+    --h2: calc(var(--h3) * var(--font-scale));
+    --h1: calc(var(--h2) * var(--font-scale));
+
+    --navbar-small: var(--h5);
+    --navbar-large: var(--h3);
+}
+
+/* sets text highlight color to the var(--accent) color */
+::selection {
+    background-color: var(--accent);
+}
+
+/* removes default margin from 'body' element */
+body {
+    margin: 0;
+    background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}  
+
+
+/* sets the font size of each text element */
+p {
+    font-size: var(--p);
+}
+h1 {
+    font-size: var(--h1);
+}
+h2 {
+    font-size: var(--h2);
+}
+h3 {
+    font-size: var(--h3);
+}
+h4 {
+    font-size: var(--h4);
+}
+h5 {
+    font-size: var(--h5);
+}
+
+/* makes image dragging impossible among all [modern] browsers */
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
