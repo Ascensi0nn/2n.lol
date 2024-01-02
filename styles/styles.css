@@ -20,21 +20,21 @@
 }
 
 /* links */
-
 .linkBox {
-    background-color: var(--background-darker);
-    clip-path: ellipse(50% 32% at 50% 50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
 }
 
 .link {
-    width: 25vw;
     background-color: var(--primary);
-    aspect-ratio: 5/2;
+    aspect-ratio: 1;
+    padding: 25px;
     display: flex;
     justify-content: center;
     cursor: pointer;
-    border-radius: 20px;
-    border: solid var(--background-darker) 5px;
+    border-radius: 2000px;
+    border: solid var(--background-darker) 10px;
     transition: ease-in-out 0.2s;
 }
 .link:hover {
@@ -43,7 +43,7 @@
 
 .linkTxt {
     text-align: center;
-    font-size: var(--h1);
+    font-size: var(--h3);
     font-weight: 700;
     text-decoration: none;
     color: var(--text);

@@ -1,5 +1,5 @@
 const numBubbles = 100;
-const maxBubbleSize = 100;
+const maxBubbleSize = 50;
 const windowHeight = document.getElementById('pages').offsetHeight;
 const windowWidth = document.getElementById('pages').offsetWidth;
 
@@ -24,7 +24,7 @@ for (let i = 0; i < numBubbles; i++) {
 
 window.addEventListener('scroll', () => {
     const distance = window.scrollY;
-    const constant = 0.001;
+    const constant = 0.002;
     const bubbles = document.getElementsByClassName('bubble');
 
     for (let bubble of bubbles) {
