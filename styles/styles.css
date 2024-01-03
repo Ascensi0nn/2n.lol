@@ -32,13 +32,11 @@
     padding: 25px;
     display: flex;
     justify-content: center;
-    cursor: pointer;
     border-radius: 2000px;
     border: solid var(--background-darker) 10px;
-    transition: ease-in-out 0.2s;
 }
 .link:hover {
-    transform: translateY(-15px);
+    cursor: pointer;
 }
 
 .linkTxt {

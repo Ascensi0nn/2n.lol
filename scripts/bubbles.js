@@ -8,11 +8,12 @@ const bubbleHolder = document.getElementById('bubbles');
 function generateBubble() {
     const bubble = document.createElement('img');
     bubble.classList.add('bubble');
-    const bubbleWidth = Math.random() * maxBubbleSize
+    const bubbleWidth = Math.random() * maxBubbleSize;
     bubble.style.width = bubbleWidth + 'px';
     bubble.style.top = (Math.random() * windowHeight) + 'px';
     bubble.style.left = (Math.random() * windowWidth) +'px';
-    bubble.style.zIndex = Math.floor(bubbleWidth - maxBubbleSize);   
+    bubble.style.zIndex = Math.floor(bubbleWidth - maxBubbleSize);
+    // bubble.style.rotate = Math.floor(Math.random() * 360) + 'deg';
     bubble.src = 'resources/bubble-medium.png';
 
     bubbleHolder.appendChild(bubble);

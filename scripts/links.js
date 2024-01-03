@@ -18,6 +18,6 @@ const max = 200;
 const min = -200;
 for (let link of document.getElementsByClassName('link')) {
     const random = Math.random() * (max - min) + min;
-    link.style.transform = 'translateY(' + random + 'px)';
+    link.style.transform += 'translateY(' + random + 'px)';
 
 }

@@ -23,7 +23,7 @@ async function getUsers() {
 async function makeTiles() {
     for (let user of await getUsers()) {
         if (names[user.id] == null) continue
-        const name = names[user.id]
+        const name = names[user.id];
 
         const tile = document.createElement('div');
         tile.className = "tile";
@@ -45,7 +45,11 @@ async function makeTiles() {
         });
 
         tile.addEventListener('click', () => {
-            window.location.href = '/group/info?name=' + name;
+            console.log(names[user.id]);
+
+            if (names[user.id]) {
+                window.location = 'info?color=blue&sort=newest';
+            }
         });
 
         tile.appendChild(par)
