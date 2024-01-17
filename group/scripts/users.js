@@ -45,10 +45,8 @@ async function makeTiles() {
         });
 
         tile.addEventListener('click', () => {
-            console.log(names[user.id]);
-
             if (names[user.id]) {
-                window.location = 'info?color=blue&sort=newest';
+                window.location.href = '/group/info?name=' + name;
             }
         });
 

@@ -1,2 +1,5 @@
 const stringQuery = window.location.search;
-console.log(stringQuery);
+const urlParams = new URLSearchParams(queryString);
+const a = urlParams.get('name');
+
+console.log(a);

@@ -13,7 +13,7 @@ function generateBubble() {
     bubble.style.top = (Math.random() * windowHeight) + 'px';
     bubble.style.left = (Math.random() * windowWidth) +'px';
     bubble.style.zIndex = Math.floor(bubbleWidth - maxBubbleSize);
-    // bubble.style.rotate = Math.floor(Math.random() * 360) + 'deg';
+    bubble.style.transform = 'rotateZ(' + Math.floor(Math.random() * 360) + 'deg)';
     bubble.src = 'resources/bubble-medium.png';
 
     bubbleHolder.appendChild(bubble);
